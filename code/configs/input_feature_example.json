@@ -1,0 +1,118 @@
+{
+  "torch.nn.functional.conv2d": [
+    {
+      "_id": "65cb53e7971ca677e66a9387",
+      "parameter:0": {
+        "min": -357.3996276855469,
+        "max": 1401.5328369140625,
+        "shape": [
+          64,
+          3,
+          224,
+          224
+        ],
+        "dtype": "torch.float32"
+      },
+      "parameter:1": {
+        "min": -38.551795959472656,
+        "max": 37.74821853637695,
+        "shape": [
+          16,
+          3,
+          3,
+          3
+        ],
+        "dtype": "torch.float32"
+      },
+      "parameter:2": null,
+      "parameter:3": [
+        2,
+        2
+      ],
+      "parameter:4": [
+        1,
+        1
+      ],
+      "parameter:5": [
+        1,
+        1
+      ],
+      "parameter:6": 1,
+      "input_signature": null,
+      "output_signature": {
+        "min": -5674.83642578125,
+        "max": 5634.06640625,
+        "shape": [
+          64,
+          16,
+          112,
+          112
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  ],
+  "torch.nn.functional.batch_norm": [
+    {
+      "_id": "65cb53e7971ca677e66a938a",
+      "parameter:0": {
+        "min": -5674.83642578125,
+        "max": 5634.06640625,
+        "shape": [
+          64,
+          16,
+          112,
+          112
+        ],
+        "dtype": "torch.float32"
+      },
+      "parameter:1": {
+        "min": -698.2232666015625,
+        "max": 1156.2293701171875,
+        "shape": [
+          16
+        ],
+        "dtype": "torch.float32"
+      },
+      "parameter:2": {
+        "min": -1.4133664941531898e-12,
+        "max": 125319.4765625,
+        "shape": [
+          16
+        ],
+        "dtype": "torch.float32"
+      },
+      "parameter:3": {
+        "min": -8.332053184509277,
+        "max": 18.702116012573242,
+        "shape": [
+          16
+        ],
+        "dtype": "torch.float32"
+      },
+      "parameter:4": {
+        "min": -50.76308059692383,
+        "max": 44.16331481933594,
+        "shape": [
+          16
+        ],
+        "dtype": "torch.float32"
+      },
+      "parameter:5": false,
+      "parameter:6": 0.1,
+      "parameter:7": 1e-05,
+      "input_signature": null,
+      "output_signature": {
+        "min": -257.2863464355469,
+        "max": 263.5699157714844,
+        "shape": [
+          64,
+          16,
+          112,
+          112
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  ]
+}
